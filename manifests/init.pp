@@ -156,6 +156,5 @@ define repomirror (
     hour    => $hour,
     minute  => $minute,
     user    => $owner,
-    require => Exec["createrepo-${name}"],
   }
 }
